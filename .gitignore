@@ -1,28 +1,19 @@
 ﻿# Python
 __pycache__/
 *.py[cod]
-*.pyo
 .venv/
 venv/
-*.egg-info/
-dist/
-build/
 
-# Data — large files stay local, not in git
+# Large data files -- download separately (see README)
 data/events/*.csv
-data/events/*.root
-data/events/*.duckdb
-*.duckdb
+data/*.root
+data/*.duckdb
 *.root
 
-# Results — generated, not committed
+# Generated results
 results/*.md
 results/*.json
 results/*.csv
-
-# Environment
-.env
-*.env
 
 # OS
 .DS_Store
@@ -31,4 +22,3 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
-*.swp
